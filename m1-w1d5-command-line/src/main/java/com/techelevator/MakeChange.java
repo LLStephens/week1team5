@@ -25,13 +25,13 @@ public class MakeChange {
 		input.nextLine();
 		
 		if(amount==bill) {
-			System.out.println("No change");
+			System.out.println("No change due");
 		} else {
 			double change = amount-bill;
 			System.out.println("The change required is $" + change);
 		}
 		
-		
+
 	}
 
 }
